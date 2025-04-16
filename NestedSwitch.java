@@ -22,7 +22,8 @@ public class NestedSwitch {
 			break;
 		case 3:
 			System.out.println("Employee no 3");
-			switch (Department) {
+			switch (Department) 
+			{
 			case "IT":
 				System.out.println("IT Department");
 				break;
