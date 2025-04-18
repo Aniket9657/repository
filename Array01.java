@@ -27,8 +27,12 @@ public class Array01
       
       // for String 
       
-      String[] arr= new String[5];
-      System.out.println(arr[0]);
+     // String[] arr= new String[5];
+      
+      
+      
+      
+    
 		
 	
 	ArrayList<Integer> L1 = new ArrayList<>();
