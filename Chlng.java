@@ -12,24 +12,17 @@ public class Chlng {
 		// {1,0,2,0,3,0,4,0,5,0}
 		
 		int Arr[]= new int [2*arr.length];
+		int j = 0;
 		
-		for (int i=0; i<arr.length;)
+		for (int i=0; i<arr.length;i++)
 		{
-			//int b =arr[i];
-			for (int j=0; j<Arr.length-1;j++)
-			{
-				Arr[j]=arr[i];
-				System.out.println("before"+Arrays.toString(Arr));
-				
-				Arr[j+1]=0;
-				System.out.println(Arrays.toString(Arr));
-				
-				
 			
+				Arr[j++]=arr[i];
+				Arr[j++]=0;
 			}
-			i++;
 			
-		}
+		
+		System.out.println(Arrays.toString(Arr));
 		
 		
 	}
