@@ -12,7 +12,6 @@ public class ArraylistExample {
 		list.add(10);
 		list.add(11);
 		
-		
 		System.out.println(list);
 	}
 
