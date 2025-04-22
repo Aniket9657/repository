@@ -16,7 +16,7 @@ public class ColourArraylist {
 		System.out.println("Enter the number of colour needed");
 	
 		int n=in.nextInt();
-		System.out.println("Enter the Fruits");
+		System.out.println("Enter the Colours");
 		
 		for (int i =0; i<n;i++)
 		{
