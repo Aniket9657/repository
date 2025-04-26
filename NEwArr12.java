@@ -2,18 +2,24 @@ package com.Collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Scanner;
 
 public class NEwArr12 {
 	public static void main(String[]args)
 	{
-		ArrayList<Integer> list = new ArrayList<>(6);
+		Scanner in = new Scanner(System.in);
+		ArrayList<Integer> list = new ArrayList<>();
+		System.out.println("Enter the size ");
+		int size = in.nextInt();
 		
+		System.out.println("Enter the number ");
 
-		list.add(1);
-		list.add(2);
-		list.add(3);
+		for(int i =0 ; i<size;i++)
+		{
+			int n = in.nextInt();
+			list.add(n);
+		}
 		
-		list.add(4);
 		
 		for (int i =0;i<list.size();i++)
 		{
