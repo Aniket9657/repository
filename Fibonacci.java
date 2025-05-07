@@ -5,25 +5,17 @@ import java.util.Scanner;
 public class Fibonacci {
 	public static void main(String[]args)
 	{
-		// Create A fibonacci series for given limit
-		Scanner in = new Scanner(System.in);
+		// 0 1 1 2 3 5 8 13 21 
+		// how 
 		
-		System.out.println("Enter the limit ");
-		int Limit = in.nextInt();
 		
-				
-		Fibona(Limit);
+		Scanner in = new Scanner (System.in);
 		
-	}
-	public static int[] Fibona(int Limit)
-	{
-		int[] Arr=new int [Limit];
-		for (int i=0; i<Arr.length;i++)
-		{
-			Arr[i]=i;
-		}
+		System.out.println("Please Enter the Length");
 		
-		return Arr;
+		int Length= in.nextInt();
+		
+		System.out.println(Length);
 		
 		
 		
