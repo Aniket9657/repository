@@ -27,7 +27,7 @@ public class Fibonacci {
 		int n2=1;
 		int sum = 0;
 		int [] Fib = new int [Length];
-		for (int i=0;i<Length-1;i++)
+		for (int i=0;i<Length;i++)
 		{
 			
 			Fib[i]=n1;
