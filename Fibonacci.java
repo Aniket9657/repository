@@ -23,12 +23,13 @@ public class Fibonacci {
 	
 	public static int [] Fibo(int Length)
 	{
+		int n1=0;
+		int n2=1;
+		int sum = 0;
 		int [] Fib = new int [Length];
 		for (int i=0;i<Length-1;i++)
 		{
-			int n1=0;
-			int n2=1;
-			int sum = 0;
+			
 			Fib[i]=n1;
 			sum=n1+n2;
 			n1=n2;
